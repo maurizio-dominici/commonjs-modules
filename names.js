@@ -1,11 +1,16 @@
 const getName = (firstName, lastName) => {
   const name = {
-    firstName: firstName,
-    lastName: lastName,
+    firstName,
+    lastName,
   };
   return name;
 };
 
+// const getFullName = (firstName, lastName) => {
+//   return `${firstName} ${lastName}`;
+// };
+
 module.exports = {
-  getName: getName,
+  getName,
+  // getFullName,
 };
