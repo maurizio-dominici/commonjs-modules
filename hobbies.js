@@ -5,5 +5,5 @@ const getHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
 };
 
 module.exports = {
-  getHobbies: getHobbies,
+  getHobbies,
 };
